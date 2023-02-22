@@ -1,6 +1,11 @@
 import React, { useEffect, useState } from "react";
 import Head from "next/head";
-import { AiOutlineLink, AiFillInstagram, AiFillMail, AiFillYoutube } from "react-icons/ai";
+import {
+  AiOutlineLink,
+  AiFillInstagram,
+  AiFillMail,
+  AiFillYoutube,
+} from "react-icons/ai";
 
 function Home() {
   return (
@@ -41,7 +46,7 @@ function Home() {
         <div className="divider"></div>
 
         <div className="mt-5">
-          <h2 className="font-bold text-xl">Latest Project</h2>
+          <h2 className="font-bold text-2xl">Latest Project</h2>
           <div className="p-2 grid gap-2">
             <a
               href="https://sptfy.tech"
@@ -72,10 +77,99 @@ function Home() {
 
         <div className="divider"></div>
 
+        <div className="mt-5">
+          <h2 className="font-bold text-2xl">Skills</h2>
+          <div className="p-2 grid md:grid-cols-2 md:gap-10 gap-5">
+            <div className="grid grid-cols-1 gap-1">
+              <div className="flex items-center">
+                <span className="text-lg font-medium">HTML</span>
+                <span className="ml-2">8.7/10</span>
+              </div>
+              <progress
+                className="progress w-56"
+                value="87"
+                max="100"
+              ></progress>
+            </div>
+            <div className="grid grid-cols-1 gap-1">
+              <div className="flex items-center">
+                <span className="text-lg font-medium">CSS</span>
+                <span className="ml-2">6/10</span>
+              </div>
+              <progress
+                className="progress w-56"
+                value="60"
+                max="100"
+              ></progress>
+            </div>
+            <div className="grid grid-cols-1 gap-1">
+              <div className="flex items-center">
+                <span className="text-lg font-medium">JavaScript</span>
+                <span className="ml-2">8.8/10</span>
+              </div>
+              <progress
+                className="progress w-56"
+                value="88"
+                max="100"
+              ></progress>
+            </div>
+            <div className="grid grid-cols-1 gap-1">
+              <div className="flex items-center">
+                <span className="text-lg font-medium">Video Editing</span>
+                <span className="ml-2">8.5/10</span>
+              </div>
+              <progress
+                className="progress w-56"
+                value="85"
+                max="100"
+              ></progress>
+            </div>
+            <div className="grid grid-cols-1 gap-1">
+              <div className="flex items-center">
+                <span className="text-lg font-medium">Photography</span>
+                <span className="ml-2">8/10</span>
+              </div>
+              <progress
+                className="progress w-56"
+                value="80"
+                max="100"
+              ></progress>
+            </div>
+            <div className="grid grid-cols-1 gap-1">
+              <div className="flex items-center">
+                <span className="text-lg font-medium">Videography</span>
+                <span className="ml-2">8/10</span>
+              </div>
+              <progress
+                className="progress w-56"
+                value="80"
+                max="100"
+              ></progress>
+            </div>
+
+            <div className="grid grid-cols-1 gap-1">
+              <div className="flex items-center">
+                <span className="text-lg font-medium">Design</span>
+                <span className="ml-2">8/10</span>
+              </div>
+              <progress
+                className="progress w-56"
+                value="80"
+                max="100"
+              ></progress>
+            </div>
+          </div>
+        </div>
+
+        <div className="divider"></div>
+
         <footer className="footer footer-center p-10 text-base-content rounded">
           <div>
             <div className="grid grid-flow-col gap-4">
-              <a className="w-[50px]" href="https://www.instagram.com/razikdontcare">
+              <a
+                className="w-[50px]"
+                href="https://www.instagram.com/razikdontcare"
+              >
                 <AiFillInstagram size={28} />
               </a>
               <a className="w-[50px]" href="mailto:contact@razik.my.id">
