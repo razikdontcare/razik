@@ -2,17 +2,30 @@ import React, { useEffect, useState } from "react";
 import Head from "next/head";
 import {
   AiOutlineLink,
-  AiFillInstagram,
-  AiFillMail,
-  AiFillYoutube,
 } from "react-icons/ai";
+
+import Footer from "../components/Footer";
 
 function Home() {
   return (
     <>
       <Head>
-        <title>Razik</title>
-        <link rel="shortcut icon" href="/dp.jpg" type="image/x-icon" />
+        <title>Abdurrazik</title>
+        <link rel="shortcut icon" href="dp.jpg" type="image/x-icon" />
+        <meta name="title" content="Abdurrazik" />
+        <meta name="description" content="18 year old web developer. based in Lombok, Indonesia. currently studying at SMAN 1 Gerung as 3rd grade student." />
+        
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://razik.my.id/" />
+        <meta property="og:title" content="Abdurrazik" />
+        <meta property="og:description" content="18 year old web developer. based in Lombok, Indonesia. currently studying at SMAN 1 Gerung as 3rd grade student." />
+        <meta property="og:image" content="dp.jpg" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://razik.my.id/" />
+        <meta property="twitter:title" content="Abdurrazik" />
+        <meta property="twitter:description" content="18 year old web developer. based in Lombok, Indonesia. currently studying at SMAN 1 Gerung as 3rd grade student." />
+        <meta property="twitter:image" content="dp.jpg" />
       </Head>
 
       <div className="container max-w-[680px] mx-auto md:my-[2%] px-4">
@@ -24,7 +37,7 @@ function Home() {
           </div>
           <div className="mx-5 grid grid-cols-1 gap-1">
             <h1 className="font-bold col-auto text-2xl">Abdurrazik</h1>
-            <span className="col-auto text-sm">{"Pelajar/Mahasiswa"}</span>
+            <span className="col-auto text-sm">Student</span>
           </div>
         </div>
 
@@ -163,27 +176,7 @@ function Home() {
 
         <div className="divider"></div>
 
-        <footer className="footer footer-center p-10 text-base-content rounded">
-          <div>
-            <div className="grid grid-flow-col gap-4">
-              <a
-                className="w-[50px]"
-                href="https://www.instagram.com/razikdontcare"
-              >
-                <AiFillInstagram size={28} />
-              </a>
-              <a className="w-[50px]" href="mailto:contact@razik.my.id">
-                <AiFillMail size={28} />
-              </a>
-              <a className="w-[50px]" href="https://youtube.com/razikdontcare">
-                <AiFillYoutube size={28} />
-              </a>
-            </div>
-          </div>
-          <div>
-            <p>&copy; 2023 Abdurrazik - All Rights Reserved</p>
-          </div>
-        </footer>
+        <Footer />
       </div>
     </>
   );

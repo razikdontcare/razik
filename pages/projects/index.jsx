@@ -2,18 +2,31 @@ import React from "react";
 import Head from "next/head";
 import {
   AiOutlineLink,
-  AiFillInstagram,
-  AiFillMail,
-  AiFillYoutube,
   AiOutlineHome,
 } from "react-icons/ai";
+
+import Footer from '../../components/Footer'
 
 const Projects = () => {
   return (
     <>
       <Head>
         <title>Abdurrazik | Projects</title>
-        <link rel="shortcut icon" href="/dp.jpg" type="image/x-icon" />
+        <link rel="shortcut icon" href="dp.jpg" type="image/x-icon" />
+        <meta name="title" content="Abdurrazik | Projects" />
+        <meta name="description" content="18 year old web developer. based in Lombok, Indonesia. currently studying at SMAN 1 Gerung as 3rd grade student." />
+        
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://razik.my.id/projects/" />
+        <meta property="og:title" content="Abdurrazik | Projects" />
+        <meta property="og:description" content="18 year old web developer. based in Lombok, Indonesia. currently studying at SMAN 1 Gerung as 3rd grade student." />
+        <meta property="og:image" content="dp.jpg" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://razik.my.id/projects/" />
+        <meta property="twitter:title" content="Abdurrazik | Projects" />
+        <meta property="twitter:description" content="18 year old web developer. based in Lombok, Indonesia. currently studying at SMAN 1 Gerung as 3rd grade student." />
+        <meta property="twitter:image" content="dp.jpg" />
       </Head>
 
       <div className="container max-w-[680px] mx-auto md:my-[2%] px-4">
@@ -122,13 +135,12 @@ const Projects = () => {
               Radio SMANGER
             </a>
             <p className="text-sm my-2">
-              RazikShort is a free and open source URL Shortener to make your
-              long url into a short link.
+              Radio SMANGER is a website used by students at SMAN 1 Gerung as a medium for requesting songs which will be played on the school radio by the student council.
             </p>
             <div className="mockup-window border bg-base-300">
               <img
-                src="/razikshort.png"
-                alt="razikshort"
+                src="/radiosmanger.jpg"
+                alt="radiosmanger"
                 className="aspect-video"
               />
             </div>
@@ -152,6 +164,9 @@ const Projects = () => {
 						</div>
           </div>
 
+          <div className="divider"></div>
+
+          <Footer />
         </div>
       </div>
     </>
