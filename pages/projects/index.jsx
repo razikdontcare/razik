@@ -55,7 +55,7 @@ export default function Projects() {
 							</div>
 						</div>
 					</a>
-					<a href="https://radiosmanger.web.app/" className="overflow-hidden flex flex-col rounded-xl border border-[#282828] hover:scale-90 transition-all md:max-w-xs">
+					<a href="https://sptfy.tech/" className="overflow-hidden flex flex-col rounded-xl border border-[#282828] hover:scale-90 transition-all md:max-w-xs">
 						<img src="/sptfy-snapshot.png" alt="Wannabe Creative" className="border-b border-[#282828]" />
 						<div className="flex flex-col justify-center p-3">
 							<div className="flex">
