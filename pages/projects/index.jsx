@@ -55,6 +55,20 @@ export default function Projects() {
 							</div>
 						</div>
 					</a>
+					<a href="https://sptfy.tech/" className="overflow-hidden flex flex-col rounded-xl border border-[#282828] hover:scale-90 transition-all md:max-w-xs">
+						<img src="/sptfy-snapshot.png" alt="Wannabe Creative" className="border-b border-[#282828]" />
+						<div className="flex flex-col justify-center p-3">
+							<div className="flex">
+								<h2 className="font-medium text-xl hover:underline">sptfy.tech</h2>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4"><path fillRule="evenodd" d="M15.75 2.25H21a.75.75 0 01.75.75v5.25a.75.75 0 01-1.5 0V4.81L8.03 17.03a.75.75 0 01-1.06-1.06L19.19 3.75h-3.44a.75.75 0 010-1.5zm-10.5 4.5a1.5 1.5 0 00-1.5 1.5v10.5a1.5 1.5 0 001.5 1.5h10.5a1.5 1.5 0 001.5-1.5V10.5a.75.75 0 011.5 0v8.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V8.25a3 3 0 013-3h8.25a.75.75 0 010 1.5H5.25z" clipRule="evenodd" /></svg>
+							</div>
+							<div className="flex space-x-1">
+								<NextjsIcon className="w-6 h-6" />
+								<TailwindIcon className="w-6 h-6" />
+								<FirebaseIcon className="w-6 h-6" />
+							</div>
+						</div>
+					</a>
 				</div>
 			</div>
 
