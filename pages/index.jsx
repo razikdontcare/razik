@@ -166,11 +166,11 @@ function Home() {
         <footer className="p-4 text-[#282828]">
           <div className="container mx-auto max-w-6xl flex items-center justify-between">
             <span className="flex items-center justify-center">
-              <span className="text-sm md:text-lg">
+              <span className="text-xs md:text-lg">
                 &copy; 2023 - All Rights Reserved
               </span>
             </span>
-            <ul className="flex items-center justify-center space-x-2 text-sm md:text-base">
+            <ul className="flex items-center justify-center space-x-2 text-xs md:text-base">
               <li>
                 <a href="https://www.linkedin.com/in/razikdontcare" className="hover:text-black transition-all">
                   Linked In
