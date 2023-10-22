@@ -42,13 +42,19 @@ function Home() {
             </a>
             <ul className="flex items-center justify-center space-x-2">
               <li>
-                <a href="https://www.linkedin.com/in/razikdontcare" className="hover:text-black transition-all">
+                <a
+                  href="https://www.linkedin.com/in/razikdontcare"
+                  className="hover:text-black transition-all"
+                >
                   Linked In
                 </a>
               </li>
               <span className="font-bold">/</span>
               <li>
-                <a href="https://www.instagram.com/razikdontcare" className="hover:text-black transition-all">
+                <a
+                  href="https://www.instagram.com/razikdontcare"
+                  className="hover:text-black transition-all"
+                >
                   Instagram
                 </a>
               </li>
@@ -122,7 +128,7 @@ function Home() {
               </ul>
             </div>
             <div className="p-3 rounded-xl flex flex-col items-center md:h-[22rem] md:w-80 bg-[#282828] text-white text-xl">
-              <h3 className="font-bold">2020 - 2021</h3>
+              <h3 className="font-bold">2021 - 2022</h3>
               <ul className="list-disc text-sm md:text-base font-medium max-w-[18rem] pl-7 p-3">
                 <li>Fullstack Web Developer of OSIS Bersinar SMAN 1 Gerung</li>
                 <li>
@@ -132,10 +138,9 @@ function Home() {
               </ul>
             </div>
             <div className="p-3 rounded-xl flex flex-col items-center md:h-[22rem] md:w-80 bg-[#282828] text-white text-xl">
-              <h3 className="font-bold">2020 - 2021</h3>
+              <h3 className="font-bold">2022 - Sekarang</h3>
               <ul className="list-disc text-sm md:text-base font-medium max-w-[18rem] pl-7 p-3">
-                <li>Front End Web Developer of Wannabe Creative</li>
-                <li>Back End Web Developer of Wannabe Creative</li>
+                <li>Fullstack Web Developer of Wannabe Creative</li>
               </ul>
             </div>
           </div>
@@ -167,18 +172,24 @@ function Home() {
           <div className="container mx-auto max-w-6xl flex items-center justify-between">
             <span className="flex items-center justify-center">
               <span className="text-xs md:text-lg">
-                &copy; 2023 - All Rights Reserved
+                &copy; 2023 - All Rights Reserved.
               </span>
             </span>
             <ul className="flex items-center justify-center space-x-2 text-xs md:text-base">
               <li>
-                <a href="https://www.linkedin.com/in/razikdontcare" className="hover:text-black transition-all">
+                <a
+                  href="https://www.linkedin.com/in/razikdontcare"
+                  className="hover:text-black transition-all"
+                >
                   Linked In
                 </a>
               </li>
               <span className="font-bold">/</span>
               <li>
-                <a href="https://www.instagram.com/razikdontcare" className="hover:text-black transition-all">
+                <a
+                  href="https://www.instagram.com/razikdontcare"
+                  className="hover:text-black transition-all"
+                >
                   Instagram
                 </a>
               </li>
