@@ -16,6 +16,8 @@ import {
 } from "../components/icons";
 
 function Home() {
+  const currentYear = new Date().getFullYear();
+
   return (
     <>
       <Title description="18 year old web developer. based in Lombok, Indonesia. currently studying at Udayana University.">
@@ -26,7 +28,7 @@ function Home() {
         <nav className="p-4">
           <div className="container mx-auto max-w-6xl flex items-center justify-between">
             <a
-              href="mailto:contact@razik.net/"
+              href="mailto:me@razik.net"
               className="flex items-center justify-center space-x-2 hover:text-black transition-all"
             >
               <svg
@@ -117,18 +119,18 @@ function Home() {
 
       <div className="py-8 md:p-8 bg-[#282828]">
         <div className="max-w-xs md:max-w-6xl container mx-auto flex flex-wrap md:flex-nowrap items-center justify-center gap-3 md:gap-0 md:space-x-5 md:space-y-0">
-          <Html5Icon className="w-16 h-16 md:w-20 md:h-20 md:grayscale hover:grayscale-0 transition-all duration-300" />
-          <JavascriptIcon className="w-16 h-16 md:w-20 md:h-20 rounded md:grayscale hover:grayscale-0 transition-all duration-300" />
-          <TypescriptIcon className="w-16 h-16 md:w-20 md:h-20 rounded md:grayscale hover:grayscale-0 transition-all duration-300" />
-          <NodejsIcon className="w-16 h-16 md:w-20 md:h-20 md:grayscale hover:grayscale-0 transition-all duration-300" />
-          <TailwindIcon className="w-16 h-16 md:w-20 md:h-20 md:grayscale hover:grayscale-0 transition-all duration-300" />
-          <ReactIcon className="w-16 h-16 md:w-20 md:h-20 md:grayscale hover:grayscale-0 transition-all duration-300" />
-          <NextjsIcon className="w-16 h-16 md:w-20 md:h-20 md:grayscale hover:grayscale-0 transition-all duration-300" />
-          <SveltekitIcon className="w-16 h-16 md:w-20 md:h-20 md:grayscale hover:grayscale-0 transition-all duration-300" />
-          <MongodbIcon className="h-16 w-16 md:h-20 md:grayscale hover:grayscale-0 transition-all duration-300" />
-          <FirebaseIcon className="w-16 h-16 md:w-20 md:h-20 md:grayscale hover:grayscale-0 transition-all duration-300" />
-          <MysqlIcon className="w-16 h-16 md:w-20 md:h-20 md:grayscale hover:grayscale-0 transition-all duration-300" />
-          <ExpressIcon className="w-16 h-16 md:w-20 md:h-20 bg-neutral-300 p-1 rounded md:grayscale hover:bg-white transition-all duration-300" />
+          <Html5Icon className="w-16 h-16 md:w-20 md:h-20  hover:grayscale-0 transition-all duration-300" />
+          <JavascriptIcon className="w-16 h-16 md:w-20 md:h-20 rounded  hover:grayscale-0 transition-all duration-300" />
+          <TypescriptIcon className="w-16 h-16 md:w-20 md:h-20 rounded  hover:grayscale-0 transition-all duration-300" />
+          <NodejsIcon className="w-16 h-16 md:w-20 md:h-20  hover:grayscale-0 transition-all duration-300" />
+          <TailwindIcon className="w-16 h-16 md:w-20 md:h-20  hover:grayscale-0 transition-all duration-300" />
+          <ReactIcon className="w-16 h-16 md:w-20 md:h-20  hover:grayscale-0 transition-all duration-300" />
+          <NextjsIcon className="w-16 h-16 md:w-20 md:h-20  hover:grayscale-0 transition-all duration-300" />
+          <SveltekitIcon className="w-16 h-16 md:w-20 md:h-20  hover:grayscale-0 transition-all duration-300" />
+          <MongodbIcon className="h-16 w-16 md:h-20  hover:grayscale-0 transition-all duration-300" />
+          <FirebaseIcon className="w-16 h-16 md:w-20 md:h-20  hover:grayscale-0 transition-all duration-300" />
+          <MysqlIcon className="w-16 h-16 md:w-20 md:h-20  hover:grayscale-0 transition-all duration-300" />
+          <ExpressIcon className="w-16 h-16 md:w-20 md:h-20 p-1 rounded bg-white transition-all duration-300" />
         </div>
       </div>
 
@@ -137,37 +139,146 @@ function Home() {
           <h2 className="font-medium text-4xl md:text-6xl text-[#282828]">
             Experiences
           </h2>
-          <div className="flex flex-col md:flex-row items-center justify-center space-y-2 md:space-y-0 md:space-x-2">
-            <div className="p-3 rounded-xl flex flex-col items-center md:h-[22rem] md:w-80 bg-[#282828] text-white text-xl">
-              <h3 className="font-bold pt-5">2020 - 2021</h3>
-              <ul className="list-disc text-sm md:text-base font-medium max-w-[18rem] pl-7 p-3">
-                <li>
-                  Member of Technology Division of OSIS Bersinar SMAN 1 Gerung
+          <div className="container mx-auto max-w-xs md:max-w-3xl flex flex-col justify-center space-y-2">
+            <div className="flex flex-col">
+              <h3 className="font-black text-2xl">Organization</h3>
+              <ul className="space-y-5 md:space-y-2">
+                <li className="text-md md:text-lg flex flex-col md:flex-row md:justify-between">
+                  <span className="font-medium max-w-lg text-justify">
+                    Member of Technology Division of OSIS Bersinar SMAN 1 Gerung
+                  </span>
+                  <span className="italic text-sm md:text-base">
+                    Aug. 2020 - Oct. 2022
+                  </span>
                 </li>
-                <li>Design Graphic Committee on HUT 37 SMAN 1 Gerung</li>
-                <li>Design Graphic Committee on PGRI SMAN 1 Gerung</li>
-                <li>Design Graphic Committee on Class Meeting SMAN 1 Gerung</li>
+                <li className="text-md md:text-lg flex flex-col md:flex-row md:justify-between">
+                  <span className="font-medium max-w-lg text-justify">
+                    Software Developer of Radio SMANGER
+                  </span>
+                  <span className="italic text-sm md:text-base">
+                    Aug. 2020 - Oct. 2022
+                  </span>
+                </li>
+                <li className="text-md md:text-lg flex flex-col md:flex-row md:justify-between">
+                  <span className="font-medium flex-col gap-1 max-w-lg text-justify relative">
+                    <span>
+                      Video Editor of "Sumpah yang Hampir Punah" Short Movie
+                    </span>
+                    <a
+                      href="https://www.instagram.com/tv/CG3eiTVn-Bp/?igsh=bXE3d3ptY2s5aWk5"
+                      target="_blank"
+                      className="items-center text-sky-800 ml-2"
+                    >
+                      [View Video]
+                    </a>
+                  </span>
+                  <span className="italic text-sm md:text-base">Oct. 2020</span>
+                </li>
+                <li className="text-md md:text-lg flex flex-col md:flex-row md:justify-between">
+                  <span className="font-medium max-w-lg text-justify">
+                    Design and Documentation Committee on HUT 37 & 38 SMAN 1
+                    Gerung
+                  </span>
+                  <span className="italic text-sm md:text-base">
+                    Nov. 2020 & Nov. 2021
+                  </span>
+                </li>
+                <li className="text-md md:text-lg flex flex-col md:flex-row md:justify-between">
+                  <span className="font-medium max-w-lg text-justify">
+                    Design and Documentation Committee on Bazaar Ramadhan 1442 H
+                    & 1443 H SMANGER
+                  </span>
+                  <span className="italic text-sm md:text-base">
+                    Apr. 2021 & Apr. 2022
+                  </span>
+                </li>
+                <li className="text-md md:text-lg flex flex-col md:flex-row md:justify-between">
+                  <span className="font-medium flex-col max-w-lg text-justify relative">
+                    <span>
+                      Assist. Director, Camera Operator, and Video Editor of
+                      "Perempuan Juga Punya Impian" Short Movie
+                    </span>
+                    <a
+                      href="https://www.instagram.com/reel/Ccm2ACEsquC/?igsh=MWk0dzJ2emc4ZWtqeQ=="
+                      target="_blank"
+                      className="items-center text-sky-800 ml-2"
+                    >
+                      [View Video]
+                    </a>
+                  </span>
+                  <span className="italic text-sm md:text-base">Apr. 2021</span>
+                </li>
+                <li className="text-md md:text-lg flex flex-col md:flex-row md:justify-between">
+                  <span className="font-medium max-w-lg text-justify">
+                    Design and Documentation Committee on Aksi Peduli SMANGER
+                    Bencana Banjir dan Tanah Longsor Lombok
+                  </span>
+                  <span className="italic text-sm md:text-base">Des. 2021</span>
+                </li>
+                <li className="text-md md:text-lg flex flex-col md:flex-row md:justify-between">
+                  <span className="font-medium max-w-lg text-justify">
+                    Design and Documentation Committee on Liga Futsal SMANGER
+                    Season 3
+                  </span>
+                  <span className="italic text-sm md:text-base">
+                    Sep. 2022 - Nov. 2022
+                  </span>
+                </li>
+                <li className="text-md md:text-lg flex flex-col md:flex-row md:justify-between">
+                  <span className="font-medium max-w-lg text-justify">
+                    Design and Documentation Committee on Musyawarah Mahasiswa
+                    Udayana Focus
+                  </span>
+                  <span className="italic text-sm md:text-base">
+                    Nov. 2023 - Des. 2023
+                  </span>
+                </li>
               </ul>
             </div>
-            <div className="p-3 rounded-xl flex flex-col items-center md:h-[22rem] md:w-80 bg-[#282828] text-white text-xl">
-              <h3 className="font-bold pt-5">2021 - 2022</h3>
-              <ul className="list-disc text-sm md:text-base font-medium max-w-[18rem] pl-7 p-3">
-                <li>
-                  Member of Technology Division of OSIS Bersinar SMAN 1 Gerung
+          </div>
+          <div className="container mx-auto max-w-xs md:max-w-3xl flex flex-col justify-center space-y-2">
+            <div className="flex flex-col">
+              <h3 className="font-black text-2xl">Work / Projects</h3>
+              <ul className="space-y-2">
+                <li className="text-md md:text-lg flex flex-col md:flex-row md:justify-between">
+                  <span className="font-medium max-w-lg text-justify">
+                    Software Developer at Wannabe Creative
+                  </span>
+                  <span className="italic text-sm md:text-base">
+                    June 2023 - Present
+                  </span>
                 </li>
-                <li>Fullstack Web Developer of OSIS Bersinar SMAN 1 Gerung</li>
-                <li>
-                  Design Graphic Committee on Bazaar Ramadhan SMAN 1 Gerung
+                <li className="text-md md:text-lg flex flex-col md:flex-row md:justify-between">
+                  <span className="font-medium max-w-lg text-justify">
+                    <span>
+                      (Freelance) Visual Editor of "IDOL" Music Cover by The
+                      Naraka
+                    </span>
+                    <a
+                      href="https://youtu.be/hp8X61O3trY"
+                      target="_blank"
+                      className="items-center text-sky-800 ml-2"
+                    >
+                      [View Video]
+                    </a>
+                  </span>
+                  <span className="italic text-sm md:text-base">Des. 2023</span>
                 </li>
-                <li>Media and Documentation Committee on MPLS SMAN 1 Gerung</li>
               </ul>
             </div>
-            <div className="p-3 rounded-xl flex flex-col items-center md:h-[22rem] md:w-80 bg-[#282828] text-white text-xl">
-              <h3 className="font-bold pt-5">2022 - 2023</h3>
-              <ul className="list-disc text-sm md:text-base font-medium max-w-[18rem] pl-7 p-3">
-                <li>Fullstack Web Developer of Wannabe Creative</li>
-                <li>Freelance Video Editor for Icarus Family</li>
-                <li>Media and Documentation Committee on MUSMA Focus 2024</li>
+          </div>
+          <div className="container mx-auto max-w-xs md:max-w-3xl flex flex-col justify-center space-y-2">
+            <div className="flex flex-col">
+              <h3 className="font-black text-2xl">Education</h3>
+              <ul className="space-y-2">
+                <li className="text-md md:text-lg flex flex-col md:flex-row md:justify-between">
+                  <span className="font-medium max-w-lg text-justify">
+                    Bachelor of Computer Science at Udayana University
+                  </span>
+                  <span className="italic text-sm md:text-base">
+                    2023 - Present
+                  </span>
+                </li>
               </ul>
             </div>
           </div>
@@ -180,7 +291,7 @@ function Home() {
             Interested in making a project with me?
           </h2>
           <a
-            href="mailto:contact@razik.net"
+            href="mailto:me@razik.net"
             className="px-8 py-5 bg-[#282828] text-white flex items-center justify-center text-xl font-medium space-x-2 hover:scale-90 transition-all"
           >
             <span>Get In Touch</span>
@@ -199,7 +310,7 @@ function Home() {
           <div className="container mx-auto max-w-6xl flex items-center justify-between">
             <span className="flex items-center justify-center">
               <span className="text-xs md:text-lg">
-                &copy; 2023 - All Rights Reserved.
+                &copy; {currentYear} - All Rights Reserved.
               </span>
             </span>
             <ul className="flex items-center justify-center space-x-2 text-xs md:text-base">

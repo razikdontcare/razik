@@ -27,60 +27,61 @@ function About() {
               My Journey Into Web Development!
             </h1>
             <p className="text-lg text-justify">
-              I'm Abdurrazik, a 19-year-old web developer living in Lombok,
-              Indonesia. I'm currently studying my first semester of college at
-              Udayana University in Bali, working towards my degree in computer
-              science. As a self-taught programmer, I have spent 6 years
-              learning web development and specialize in JavaScript and web
-              development.
+              Hey there! I’m Abdurrazik, a 19-year-old web developer hailing
+              from the beautiful island of Bali, Indonesia. I’m kicking off my
+              first semester at Udayana University in Bali, diving headfirst
+              into the world of computer science. As a self-taught coder with
+              six years under my belt, I’ve become quite the JavaScript and web
+              development enthusiast.
+            </p>
+            <h2 className="font-medium pt-2 text-2xl">
+              Development Journey and Skills
+            </h2>
+            <p className="text-lg text-justify">
+              My coding adventure began in 7th grade when I decided to dive into
+              the world of HTML and CSS. Since then, I’ve leveled up my skills
+              to tackle more complex languages like JavaScript. I’ve been on a
+              mission to master front-end development, back-end programming,
+              databases, and more. I love crafting responsive websites, apps,
+              and all sorts of web solutions.
             </p>
             <p className="text-lg text-justify">
-              As a self-taught coder since 7th grade, I'm eager to leverage my
-              computer science degree to further evolve my development skills in
-              areas like JavaScript, back-end programming, databases, and more.
-              I specialize in developing responsive websites, apps, and other
-              web solutions.
+              Lately, I’ve been bitten by the mobile development bug and am
+              eagerly learning Flutter to create awesome cross-platform mobile
+              apps.
             </p>
+            <h2 className="font-medium pt-2 text-2xl">
+              Academic and Extracurricular Involvement
+            </h2>
             <p className="text-lg text-justify">
-              In school, I stay involved in several student organizations where
-              I've developed essential leadership, collaboration, and critical
-              thinking abilities. I also apply my problem-solving mindset to
-              creative pursuits like photography, videography, and motion
-              graphics.
-            </p>
-            <p className="text-lg text-justify">
-              When I'm not coding, you can find me reading to expand my
-              knowledge or watching YouTube videos to relax. I also enjoy
-              tinkering with gadgets and staying up-to-date on the latest tech
-              trends.
-            </p>
-            <h2 className="font-medium pt-2 text-2xl">Background and Skills</h2>
-            <p className="text-lg text-justify">
-              I first started teaching myself how to code back in 7th grade. I
-              began with basic HTML and CSS before moving on to more complex
-              programming languages like JavaScript. Over the years, I've worked
-              on personal projects to hone my skills in front-end development,
-              back-end functionality, databases, and more.
-            </p>
-            <p className="text-lg text-justify">
-              While I still have more to learn, I'm proud of my self-motivated
-              and scrappy approach to web programming. I look forward to seeing
-              how my skills progress in college and beyond.
+              At Udayana University, I’m not just hitting the books. I’m also
+              jumping into student organizations, where I’m sharpening my
+              leadership, collaboration, and critical thinking skills. My
+              problem-solving superpowers also come in handy for creative
+              pursuits like photography, videography, and motion graphics.
             </p>
             <h2 className="font-medium pt-2 text-2xl">Hobbies and Interests</h2>
             <p className="text-lg text-justify">
-              Outside of web development, I enjoy photography and motion
-              graphics design, allowing me to be creative in new ways visually.
-              For photography, I like to capture unique perspectives of
-              landscapes, architecture, and portraits of people in my community.
-              For motion graphics, I design engaging animated social media posts
-              and videos.
+              When I’m not buried in code, you’ll find me behind a camera lens,
+              capturing cool landscapes, stunning architecture, and vibrant
+              portraits of people in my community. I also love creating animated
+              content that pops on social media.
             </p>
             <p className="text-lg text-justify">
-              I also stay curious by reading non-fiction books/articles on
-              science, personal growth, and digital media. To relax, I watch
-              YouTube videos encompassing everything from gaming streams to tech
-              product reviews.
+              I’m a bookworm too, especially when it comes to non-fiction about
+              science, personal growth, and digital media. To chill out, I
+              binge-watch YouTube videos on everything from gaming streams to
+              tech product reviews. I also love tinkering with gadgets and
+              staying on top of the latest tech trends.
+            </p>
+            <h2 className="font-medium pt-2 text-2xl">Future Aspirations</h2>
+            <p className="text-lg text-justify">
+              Even though I’m just starting my college journey, I’m super
+              excited to level up my development skills even further. I can’t
+              wait to dive deeper into JavaScript, back-end programming,
+              databases, and my new passion, mobile development with Flutter. My
+              self-taught, can-do attitude has gotten me this far, and I’m
+              pumped to see where my skills and experiences will take me next.
             </p>
           </div>
         </div>

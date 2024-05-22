@@ -5,6 +5,7 @@ import {
   TailwindIcon,
   FirebaseIcon,
   MuiIcon,
+  ReactIcon,
 } from "../../components/icons";
 
 export default function Projects() {
@@ -73,7 +74,7 @@ export default function Projects() {
             >
               <img
                 src="/radiobersinar-snapshot.jpeg"
-                alt="Wannabe Creative"
+                alt="RadioSMANGER"
                 className="border-b border-[#282828] aspect-video h-52 object-cover"
               />
               <div className="flex flex-col justify-center p-3">
@@ -102,18 +103,18 @@ export default function Projects() {
               </div>
             </a>
             <a
-              href="https://sptfy.tech/"
+              href="https://shopnote.web.app/"
               className="overflow-hidden flex flex-col rounded-xl border border-[#282828] hover:scale-90 transition-all md:max-w-xs h-72"
             >
               <img
-                src="/sptfy-snapshot.png"
-                alt="Wannabe Creative"
+                src="/shopnote-snapshot.jpeg"
+                alt="Shopnote"
                 className="border-b border-[#282828] aspect-video h-52 object-cover"
               />
               <div className="flex flex-col justify-center p-3">
                 <div className="flex">
                   <h2 className="font-medium text-xl hover:underline">
-                    sptfy.tech
+                    ShopNote
                   </h2>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -129,7 +130,7 @@ export default function Projects() {
                   </svg>
                 </div>
                 <div className="flex space-x-1">
-                  <NextjsIcon className="w-6 h-6" />
+                  <ReactIcon className="w-6 h-6" />
                   <TailwindIcon className="w-6 h-6" />
                   <FirebaseIcon className="w-6 h-6" />
                 </div>
@@ -142,7 +143,7 @@ export default function Projects() {
           <div className="container mx-auto max-w-6xl flex items-center justify-between">
             <span className="flex items-center justify-center">
               <span className="text-xs md:text-lg">
-                &copy; 2023 - All Rights Reserved
+                &copy; {new Date().getFullYear()} - All Rights Reserved
               </span>
             </span>
             <ul className="flex items-center justify-center space-x-2 text-xs md:text-base">
