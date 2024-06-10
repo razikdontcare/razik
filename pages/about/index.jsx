@@ -77,11 +77,12 @@ function About() {
             <h2 className="font-medium pt-2 text-2xl">Future Aspirations</h2>
             <p className="text-lg text-justify">
               Even though I’m just starting my college journey, I’m super
-              excited to level up my development skills even further. I can’t
-              wait to dive deeper into JavaScript, back-end programming,
-              databases, and my new passion, mobile development with Flutter. My
-              self-taught, can-do attitude has gotten me this far, and I’m
-              pumped to see where my skills and experiences will take me next.
+              excited to level up my development skills even further and always
+              trying new things. I can’t wait to dive deeper into JavaScript,
+              back-end programming, databases, and my new passion, mobile
+              development with Flutter. My self-taught, can-do attitude has
+              gotten me this far, and I’m pumped to see where my skills and
+              experiences will take me next.
             </p>
           </div>
         </div>
