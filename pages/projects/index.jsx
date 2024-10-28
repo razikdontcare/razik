@@ -36,7 +36,7 @@ export default function Projects() {
           <h1 className="font-medium text-4xl md:text-6xl">Projects</h1>
           <div className="flex flex-col md:flex-row items-center justify-center space-y-5 md:space-y-0 md:space-x-5">
             <a
-              href="https://wannabecreative.id/"
+              href="https://wannabe.id/"
               className="overflow-hidden flex flex-col rounded-xl border border-[#282828] hover:scale-90 transition-all md:max-w-xs h-72"
             >
               <img
@@ -69,7 +69,7 @@ export default function Projects() {
               </div>
             </a>
             <a
-              href="https://radiobersinar.web.app/"
+              href="https://osisbersinar.eu.org/"
               className="overflow-hidden flex flex-col rounded-xl border border-[#282828] hover:scale-90 transition-all md:max-w-xs h-72"
             >
               <img
