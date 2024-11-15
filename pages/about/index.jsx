@@ -85,9 +85,7 @@ function About() {
               gotten me this far, and I’m pumped to see where my skills and
               experiences will take me next.
             </p>
-            <Link passHref>
-              <a href="https://s3.razik.net/SenangBelajar.apk.pdf">abc</a>
-            </Link>
+            <a href="https://s3.razik.net/SenangBelajar.apk.pdf">abc</a>
           </div>
         </div>
       </div>
