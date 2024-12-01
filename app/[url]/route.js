@@ -1,4 +1,4 @@
-import { redirect } from "next/navigation";
+import { redirect, notFound } from "next/navigation";
 
 async function getTargetUrl(id) {
   try {
@@ -23,8 +23,6 @@ export async function GET(request, props) {
   if (targetUrl) {
     return redirect(targetUrl);
   } else {
-    return new Response("URL Not Found. Please check the URL and try again.", {
-      status: 404,
-    });
+    return notFound();
   }
 }
