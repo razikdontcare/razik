@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata = {
   title: "About Me",
-  description: "Learn more about me and my journey into web development.",
+  description: "Learn more about me and my journey into web development."
 };
 
 function About() {

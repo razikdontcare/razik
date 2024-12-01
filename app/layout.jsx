@@ -5,12 +5,15 @@ const outfit = Outfit({ subsets: ["latin"] });
 
 export const metadata = {
   metadataBase: new URL("https://razik.net"),
+
   title: {
     default: "Abdurrazik | Personal Portfolio",
     template: "%s | Abdurrazik",
   },
+
   description:
     "20 years old, self-taught web developer, and a computer science student.",
+
   openGraph: {
     title: "Abdurrazik | Personal Portfolio",
     description:
@@ -22,7 +25,7 @@ export const metadata = {
         url: "/dp.jpg",
       },
     ],
-  },
+  }
 };
 
 export default function RootLayout({

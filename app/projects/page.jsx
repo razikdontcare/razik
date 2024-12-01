@@ -11,7 +11,7 @@ import Link from "next/link";
 
 export const metadata = {
   title: "Projects",
-  description: "Check out some of my projects and creations.",
+  description: "Check out some of my projects and creations."
 };
 
 export default function Projects() {
