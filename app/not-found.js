@@ -3,10 +3,10 @@ import Link from "next/link";
 
 export const metadata = {
   title: "404 Not Found",
-  description: "The page you are looking for does not exist."
+  description: "The page you are looking for does not exist.",
 };
 
-function NotFound() {
+async function NotFound() {
   return (
     <>
       <div className="h-screen flex flex-col items-center justify-center bg-gray-200">
